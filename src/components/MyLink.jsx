@@ -8,7 +8,7 @@ const MyLink = ({ href, children }) => {
   return (
     <Link
       href={href}
-      className={`pb-2 font-semibold ${pathname === href ? "border-b-2 border-purple-500" : ""}`}
+      className={`pb-2 font-semibold ${pathname === href ? "border-b-2 border-blue-500" : ""}`}
     >
       {children}
     </Link>

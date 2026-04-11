@@ -44,7 +44,7 @@ const Navbar = () => {
           ))}
         </ul>
         <Link href="https://github.com/">
-        <button className="btn bg-purple-500 text-white">
+        <button className="btn bg-blue-600 text-white">
           <FaGithub />
           Contribute
         </button>
