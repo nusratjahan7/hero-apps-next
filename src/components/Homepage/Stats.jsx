@@ -2,7 +2,7 @@ import React from 'react';
 
 const Stats = () => {
     return (
-        <div className="bg-linear-to-r from-blue-600 to-purple-400 py-10 px-8">
+        <div className="bg-linear-to-r from-blue-600 to-purple-400 py-6 px-8">
             <div className="container mx-auto text-center">
                 <h2 className="text-2xl font-semibold text-white mb-8">Trusted By Millions, Built For You</h2>
 
