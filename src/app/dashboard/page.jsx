@@ -18,7 +18,7 @@ const DashboardPage = () => {
   ];
 
   return (
-    <div className=" my-10 shadow p-10 container mx-auto">
+    <div className="shadow p-10 container mx-auto">
       <h2 className="font-semibold text-3xl mt-6  text-center">
         Installed and Uninstalled apps
       </h2>
