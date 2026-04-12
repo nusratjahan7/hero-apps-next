@@ -11,7 +11,7 @@ export async function generateMetadata({ params}){
     const app = apps.find(app => app.id == id);
 
     return{
-        title: app.title,
+        title: `${app.title} - HeroApps`,
         description: app.description,
     }
 }
