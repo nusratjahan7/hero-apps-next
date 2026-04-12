@@ -5,6 +5,8 @@ import { toast } from 'react-toastify';
 import { InstalledAppsContext } from '@/context/InstallContext';
 import Image from 'next/image';
 
+
+
 const Installation = () => {
 
     const { installed, setInstalled } = useContext(InstalledAppsContext);
