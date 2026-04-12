@@ -5,7 +5,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
+export async function generateMetadata({ params}){
+    const apps = getApps();
+    const { id } = await params;
+    const app = apps.find(app => app.id == id);
 
+    return{
+        title: app.title,
+        description: app.description,
+    }
+}
 
 const AppDetailsPage = async ({ params }) => {
     const apps = getApps();
