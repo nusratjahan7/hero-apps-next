@@ -1,4 +1,4 @@
-import bannerImg from "@/assets/img/hero.png";
+
 import Image from "next/image";
 
 const Banner = () => {
@@ -16,7 +16,9 @@ const Banner = () => {
         <button className="btn">Play store</button>
         <button className="btn">App store</button>
       </div>
-      <Image src={bannerImg} height={300} width={600} className="mx-auto" alt="" />
+      <Image 
+       src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=600"
+       height={300} width={600} className="mx-auto" alt="" />
     </div>
   );
 };

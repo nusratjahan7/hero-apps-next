@@ -15,6 +15,7 @@ const AppDetailsPage = async ({ params }) => {
     app.ratings.forEach((rating) => {
         totalRatings += rating.count;
     });
+    
 
     return (
         <section className='container mx-auto px-3'>
