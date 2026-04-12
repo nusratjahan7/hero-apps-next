@@ -1,3 +1,4 @@
+import InstallToggleBtn from "@/components/Homepage/Apps/InstallToggleBtn";
 import { getApps } from "@/lib/getApps";
 import { ArrowLeft, Download, MessageSquare } from "lucide-react";
 import Image from "next/image";
@@ -63,9 +64,7 @@ const AppDetailsPage = async ({ params }) => {
                 {isInstalled ? 'Installed' : 'Install'}
             </button> */}
             
-            <button className="btn mt-4 bg-linear-to-r from-blue-600 to-purple-400 text-white"> 
-                Install Now
-            </button>
+                <InstallToggleBtn app={app} />
 
                 </div>
             </div>

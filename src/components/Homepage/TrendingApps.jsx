@@ -14,7 +14,7 @@ const TrendingApps = async ({ from }) => {
     <div className="container mx-auto px-4 my-[60px]">
       {/* Section header */}
       <div className="mb-8 text-center">
-         <h2 className="font-bold text-4xl">
+         <h2 className="font-bold mb-4 text-4xl">
           {from === "homepage" ? "Trending apps" : "All Apps"}
         </h2>
         <p className="text-gray-600">
