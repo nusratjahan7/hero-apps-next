@@ -1,16 +1,13 @@
+import { getApps } from "@/lib/getApps";
 import { ArrowLeft, Download, MessageSquare } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
-const appsPromise = async function () {
-    const res = await fetch("http://localhost:3000/data.json");
-    const data = await res.json();
-    return data;
-};
+
 
 const AppDetailsPage = async ({ params }) => {
-    const apps = await appsPromise();
+    const apps = getApps();
     const { id } = await params;
     const app = apps.find(app => app.id == id);
 
@@ -64,6 +61,11 @@ const AppDetailsPage = async ({ params }) => {
 
                 {isInstalled ? 'Installed' : 'Install'}
             </button> */}
+            
+            <button className="btn mt-4 bg-linear-to-r from-blue-600 to-purple-400 text-white"> 
+                Install Now
+            </button>
+
                 </div>
             </div>
 

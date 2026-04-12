@@ -2,16 +2,11 @@
 import React from "react";
 import Link from "next/link";
 import AppCard from "@/ui/AppCard";
+import { getApps } from "@/lib/getApps";
 
-
-const appsPromise = async function () {
-  const res = await fetch("http://localhost:3000/data.json");
-  const data = await res.json();
-  return data;
-};
 
 const TrendingApps = async ({ from }) => {
-  const apps = await appsPromise();
+  const apps = getApps();
 
   console.log(from, "from");
 
