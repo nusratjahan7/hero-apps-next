@@ -6,9 +6,9 @@ import { FaDownload, FaStar } from "react-icons/fa";
 
 const AppCard = ({ app }) => {
   return (
-    <Link href={`/apps/${app.id}`} className="card bg-base-100 shadow-sm">
+    <Link href={`/apps/${app.id}`} className="card bg-base-200 shadow-sm border  border-gray-200 pt-4">
       <figure className="">
-        <Image src={app.image} alt={app.title} height={200} width={200} className="h-[200px] w-auto" />
+        <Image src={app.image} alt={app.title} height={200} width={200} className="h-50 w-auto" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{app.title}</h2>

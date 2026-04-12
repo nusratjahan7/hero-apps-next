@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Banner />
       <Stats />
-      <TrendingApps />
+      <TrendingApps from="homepage" />
     </div>
   );
 }
