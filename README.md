@@ -28,9 +28,6 @@ Manage all installed applications, with options to delete or add new apps.
 ### Dashboard Page
 Visual dashboard showing installed vs. uninstalled apps using a pie chart for better analytics.
 
-## Installation
-To install and run this project locally, follow the steps below.
-
 ## Technologies Used
 - **Frontend:** Next.js, React
 - **Backend:**  Node.js (if applicable)
