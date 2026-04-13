@@ -10,9 +10,8 @@ Hero Apps is a modern app management platform that provides users with an intuit
 - **Dashboard Analytics:** Provides visual representations of installed vs. uninstalled apps and usage statistics.
 - **User-friendly Interface:** The platform is designed for easy navigation and smooth user experience.
 
-## Screenshots
 
-Here are some key sections of the Hero Apps platform:
+## Here are some key sections of the Hero Apps platform:
 
 ### Home Page 
 Displays an overview of the platform, including the total downloads, reviews, and the number of active apps.
